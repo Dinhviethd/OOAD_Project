@@ -29,6 +29,18 @@ namespace OOAD
             location = loc;
             originalStart = start;
             originalEnd = end;
+            var box = new UserControlBox();
+            box.SetData(
+                conflictingAppointment.Name,
+                conflictingAppointment.Location,
+                conflictingAppointment.StartTime,
+                conflictingAppointment.EndTime,
+                "Appointment"
+            );
+            box.BackColor = ColorTranslator.FromHtml("#FFF3E0");
+            box.Dock = DockStyle.Top;
+            panel1.Controls.Add(box);
+
         }
 
         private void bCreate_Click(object sender, EventArgs e)

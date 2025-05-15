@@ -27,6 +27,7 @@ namespace OOAD.View
             appoint = new AppoinmentService(db);
             groupmeet = new GroupMeetingService(db);
             users = new UserService(db);
+
         }
         public void SetData(string name, string location, DateTime startTime, DateTime endTime, string type)
         {

@@ -34,10 +34,6 @@
             this.bJoin = new System.Windows.Forms.Button();
             this.bCreate = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -66,7 +62,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label6.Location = new System.Drawing.Point(98, 325);
+            this.label6.Location = new System.Drawing.Point(98, 264);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(481, 25);
             this.label6.TabIndex = 3;
@@ -77,7 +73,7 @@
             this.bJoin.BackColor = System.Drawing.SystemColors.ControlLight;
             this.bJoin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.bJoin.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.bJoin.Location = new System.Drawing.Point(102, 368);
+            this.bJoin.Location = new System.Drawing.Point(102, 307);
             this.bJoin.Name = "bJoin";
             this.bJoin.Size = new System.Drawing.Size(277, 57);
             this.bJoin.TabIndex = 4;
@@ -91,7 +87,7 @@
             this.bCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.bCreate.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.bCreate.Location = new System.Drawing.Point(390, 368);
+            this.bCreate.Location = new System.Drawing.Point(390, 307);
             this.bCreate.Name = "bCreate";
             this.bCreate.Size = new System.Drawing.Size(277, 57);
             this.bCreate.TabIndex = 4;
@@ -101,51 +97,17 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FloralWhite;
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Location = new System.Drawing.Point(103, 112);
+            this.panel1.Location = new System.Drawing.Point(103, 118);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(525, 192);
-            this.panel1.TabIndex = 5;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label5.Location = new System.Drawing.Point(16, 143);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(24, 22);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "l5";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label3.Location = new System.Drawing.Point(16, 30);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(24, 22);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "l3";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label4.Location = new System.Drawing.Point(16, 85);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(24, 22);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "l4";
+            this.panel1.Size = new System.Drawing.Size(513, 117);
+            this.panel1.TabIndex = 19;
             // 
             // MeetingConflict
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ClientSize = new System.Drawing.Size(753, 473);
+            this.ClientSize = new System.Drawing.Size(753, 403);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.bCreate);
             this.Controls.Add(this.bJoin);
@@ -154,8 +116,7 @@
             this.Controls.Add(this.label1);
             this.Name = "MeetingConflict";
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.Load += new System.EventHandler(this.MeetingConflict_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,9 +130,6 @@
         private System.Windows.Forms.Button bJoin;
         private System.Windows.Forms.Button bCreate;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
     }
 }
 

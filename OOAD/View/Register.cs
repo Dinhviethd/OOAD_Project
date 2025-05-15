@@ -21,7 +21,19 @@ namespace OOAD.View
             signup_password.PasswordChar = signup_showPass.Checked ? '\0' : '*';
         }
 
-        private void btnRegister_Click(object sender, EventArgs e)
+        private bool IsValidEmail(string email)
+        {
+            return Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$");
+        }
+
+        private void signup_loginHere_Click(object sender, EventArgs e)
+        {
+            Login lForm = new Login();
+            lForm.Show();
+            this.Hide();
+        }
+
+        private void signup_btn_Click(object sender, EventArgs e)
         {
             string name = signup_name.Text;
             string username = signup_username.Text;
@@ -49,23 +61,14 @@ namespace OOAD.View
             if (success)
             {
                 MessageBox.Show("Đăng ký thành công!");
+                Login lForm = new Login();
+                lForm.Show();
                 this.Close();
             }
             else
             {
                 MessageBox.Show("Tên đăng nhập hoặc email đã tồn tại!");
             }
-        }
-        private bool IsValidEmail(string email)
-        {
-            return Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$");
-        }
-
-        private void signup_loginHere_Click(object sender, EventArgs e)
-        {
-            Login lForm = new Login();
-            lForm.Show();
-            this.Hide();
         }
     }
 }

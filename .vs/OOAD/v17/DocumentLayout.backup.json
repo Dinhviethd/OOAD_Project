@@ -3,72 +3,48 @@
   "WorkspaceRootPath": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\usercontrolbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|d:\\study\\second year - second semester\\ooad\\ooad\\ooad\\view\\usercontrolbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|d:\\study\\second year - second semester\\ooad\\ooad\\ooad\\view\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\service\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\service\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|d:\\study\\second year - second semester\\ooad\\ooad\\ooad\\model\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\model\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|d:\\study\\second year - second semester\\ooad\\ooad\\ooad\\model\\appoinment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\model\\appoinment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|d:\\study\\second year - second semester\\ooad\\ooad\\ooad\\model\\groupmeeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\model\\groupmeeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|d:\\study\\second year - second semester\\ooad\\ooad\\ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\usercontrolcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|d:\\study\\second year - second semester\\ooad\\ooad\\ooad\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\service\\groupmeetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\service\\groupmeetingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|d:\\study\\second year - second semester\\ooad\\ooad\\ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|d:\\study\\second year - second semester\\ooad\\ooad\\ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\model\\groupmeeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\model\\groupmeeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|d:\\study\\second year - second semester\\ooad\\ooad\\ooad\\view\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\usercontrolcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\usercontrolday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\scheduleconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\scheduleconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\scheduleconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\scheduleconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\ooad\\view\\layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Layout.cs",
               "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\Layout.cs",
               "RelativeDocumentMoniker": "OOAD\\View\\Layout.cs",
@@ -95,41 +71,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "UserControlCalendar.cs",
               "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlCalendar.cs",
               "RelativeDocumentMoniker": "OOAD\\View\\UserControlCalendar.cs",
               "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlCalendar.cs",
               "RelativeToolTip": "OOAD\\View\\UserControlCalendar.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAmwIMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwIMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T01:42:54.989Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "Schedule.cs",
               "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\Schedule.cs",
               "RelativeDocumentMoniker": "OOAD\\View\\Schedule.cs",
               "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\Schedule.cs",
               "RelativeToolTip": "OOAD\\View\\Schedule.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAwFYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T07:11:39.305Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserControlBox.cs [Design]",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlBox.cs",
-              "RelativeDocumentMoniker": "OOAD\\View\\UserControlBox.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlBox.cs [Design]",
-              "RelativeToolTip": "OOAD\\View\\UserControlBox.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T09:43:12.906Z",
-              "EditorCaption": " [Design]"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -141,32 +107,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserControlDashboard.cs [Design]",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlDashboard.cs",
-              "RelativeDocumentMoniker": "OOAD\\View\\UserControlDashboard.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlDashboard.cs [Design]",
-              "RelativeToolTip": "OOAD\\View\\UserControlDashboard.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Register.cs",
+              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\Register.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\Register.cs",
+              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\Register.cs",
+              "RelativeToolTip": "OOAD\\View\\Register.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T09:36:42.411Z",
+              "WhenOpened": "2025-05-15T13:23:17.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MeetingConflict.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\MeetingConflict.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\MeetingConflict.cs",
+              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\MeetingConflict.cs [Design]",
+              "RelativeToolTip": "OOAD\\View\\MeetingConflict.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:19:12.451Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Reminder.cs",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\Model\\Reminder.cs",
-              "RelativeDocumentMoniker": "OOAD\\Model\\Reminder.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\Model\\Reminder.cs",
-              "RelativeToolTip": "OOAD\\Model\\Reminder.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MeetingConflict.cs",
+              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\MeetingConflict.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\MeetingConflict.cs",
+              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\MeetingConflict.cs",
+              "RelativeToolTip": "OOAD\\View\\MeetingConflict.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T09:11:29.572Z",
+              "WhenOpened": "2025-05-15T13:15:51.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ScheduleConflict.cs",
+              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\ScheduleConflict.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\ScheduleConflict.cs",
+              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\ScheduleConflict.cs",
+              "RelativeToolTip": "OOAD\\View\\ScheduleConflict.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAlwC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:00:08.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ScheduleConflict.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\ScheduleConflict.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\ScheduleConflict.cs",
+              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\ScheduleConflict.cs [Design]",
+              "RelativeToolTip": "OOAD\\View\\ScheduleConflict.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:59:59.698Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserControlDay.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlDay.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\UserControlDay.cs",
+              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlDay.cs [Design]",
+              "RelativeToolTip": "OOAD\\View\\UserControlDay.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:48:02.939Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GroupMeeting.cs",
               "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\Model\\GroupMeeting.cs",
               "RelativeDocumentMoniker": "OOAD\\Model\\GroupMeeting.cs",
@@ -179,126 +195,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Appoinment.cs",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\Model\\Appoinment.cs",
-              "RelativeDocumentMoniker": "OOAD\\Model\\Appoinment.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\Model\\Appoinment.cs",
-              "RelativeToolTip": "OOAD\\Model\\Appoinment.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T09:10:10.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MeetingConflict.cs",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\MeetingConflict.cs",
-              "RelativeDocumentMoniker": "OOAD\\View\\MeetingConflict.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\MeetingConflict.cs",
-              "RelativeToolTip": "OOAD\\View\\MeetingConflict.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:50:55.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MeetingConflict.cs [Design]",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\MeetingConflict.cs",
-              "RelativeDocumentMoniker": "OOAD\\View\\MeetingConflict.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\MeetingConflict.cs [Design]",
-              "RelativeToolTip": "OOAD\\View\\MeetingConflict.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:50:52.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "Register.cs [Design]",
               "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\Register.cs",
               "RelativeDocumentMoniker": "OOAD\\View\\Register.cs",
               "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\Register.cs [Design]",
               "RelativeToolTip": "OOAD\\View\\Register.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:50:04.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\Model\\User.cs",
-              "RelativeDocumentMoniker": "OOAD\\Model\\User.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\Model\\User.cs",
-              "RelativeToolTip": "OOAD\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:35:27.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GroupMeetingService.cs",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\Service\\GroupMeetingService.cs",
-              "RelativeDocumentMoniker": "OOAD\\Service\\GroupMeetingService.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\Service\\GroupMeetingService.cs",
-              "RelativeToolTip": "OOAD\\Service\\GroupMeetingService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:19:07.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppointmentService.cs",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\Service\\AppointmentService.cs",
-              "RelativeDocumentMoniker": "OOAD\\Service\\AppointmentService.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\Service\\AppointmentService.cs",
-              "RelativeToolTip": "OOAD\\Service\\AppointmentService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:19:03.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Schedule.cs [Design]",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\Schedule.cs",
-              "RelativeDocumentMoniker": "OOAD\\View\\Schedule.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\Schedule.cs [Design]",
-              "RelativeToolTip": "OOAD\\View\\Schedule.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T07:08:23.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserControlBox.cs",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlBox.cs",
-              "RelativeDocumentMoniker": "OOAD\\View\\UserControlBox.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlBox.cs",
-              "RelativeToolTip": "OOAD\\View\\UserControlBox.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T06:32:57.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserControlDashboard.cs",
-              "DocumentMoniker": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlDashboard.cs",
-              "RelativeDocumentMoniker": "OOAD\\View\\UserControlDashboard.cs",
-              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\UserControlDashboard.cs",
-              "RelativeToolTip": "OOAD\\View\\UserControlDashboard.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAxwFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T06:29:53.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T07:50:04.857Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

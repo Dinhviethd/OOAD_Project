@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using OOAD.View;
 using System.Drawing.Drawing2D;
+using OOAD.Service;
 
 namespace OOAD
 {
@@ -22,12 +23,43 @@ namespace OOAD
             InitializeComponent();
             this.BackColor = ColorTranslator.FromHtml("#FDF6E3");
             this.ForeColor = ColorTranslator.FromHtml("#776B5D");
+            textBox1.BackColor = ColorTranslator.FromHtml("#FFE8C8");
+            textBox1.ForeColor = ColorTranslator.FromHtml("#5A4B3C");
         }
         public void days(int numday)
         {
-            label1.Text = numday + "";
-        }
+            label1.Text = numday.ToString();
 
+            int day = numday;
+            int month = UserControlCalendar.static_month;
+            int year = UserControlCalendar.static_year;
+            DateTime selectedDate;
+
+            // Kiểm tra ngày hợp lệ
+            try
+            {
+                selectedDate = new DateTime(year, month, day);
+            }
+            catch
+            {
+                textBox1.Text = "";
+                return;
+            }
+
+            var db = new Model1();
+            var appointService = new AppoinmentService(db);
+            var groupService = new GroupMeetingService(db);
+
+            var appointments = appointService.GetAppointmentsByUser(loggeduser.ID_User)
+                .Where(a => a.StartTime.Date == selectedDate.Date);
+
+            var meetings = groupService.GetGroupMeetingsByUser(loggeduser.ID_User)
+                .Where(m => m.StartTime.Date == selectedDate.Date);
+
+            int totalEvents = appointments.Count() + meetings.Count();
+            if(totalEvents > 0)  textBox1.Text = totalEvents.ToString() + " Events";
+            else textBox1.Visible = false;
+        }
         private void UserControlDay_Click(object sender, EventArgs e)
         {
             static_day = label1.Text;
@@ -45,6 +77,11 @@ namespace OOAD
                 p.Alignment = PenAlignment.Inset; // Viền nằm bên trong control
                 e.Graphics.DrawRectangle(p, new Rectangle(0, 0, this.Width - 1, this.Height - 1));
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

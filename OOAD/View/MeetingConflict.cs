@@ -1,22 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+using System.Data.Entity; // Quan trọng để dùng Include()
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using OOAD.Service;
 using OOAD.View;
 
 namespace OOAD
 {
-    public partial class MeetingConflict: Form
+    public partial class MeetingConflict : Form
     {
         private GroupMeeting existingMeeting;
         private User currentUser;
         private GroupMeetingService groupService;
+
         public MeetingConflict(GroupMeeting conflictMeeting, User user, GroupMeetingService service)
         {
             InitializeComponent();
@@ -27,12 +25,23 @@ namespace OOAD
 
         private void bJoin_Click(object sender, EventArgs e)
         {
-            if (!existingMeeting.Participants.Any(p => p.ID_User == currentUser.ID_User))
+            using (var db = new Model1())
             {
-                existingMeeting.Participants.Add(currentUser);
-                groupService.UpdateGroup(existingMeeting);
-                MessageBox.Show("Bạn đã tham gia cuộc họp!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                var userFromDb = db.Users.Find(currentUser.ID_User);
+                var meetingFromDb = db.GroupMeetings
+                    .Include("Participants")
+                    .FirstOrDefault(g => g.ID_Group == existingMeeting.ID_Group);
+
+                if (userFromDb != null && meetingFromDb != null &&
+                    !meetingFromDb.Participants.Any(p => p.ID_User == userFromDb.ID_User))
+                {
+                    meetingFromDb.Participants.Add(userFromDb);
+                    db.SaveChanges();
+
+                    MessageBox.Show("Bạn đã tham gia cuộc họp!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
+
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
@@ -41,6 +50,17 @@ namespace OOAD
         {
             this.DialogResult = DialogResult.Cancel;
             this.Close();
+        }
+
+        private void MeetingConflict_Load(object sender, EventArgs e)
+        {
+            var box = new UserControlBox();
+            box.SetData(existingMeeting.Name, existingMeeting.Location, existingMeeting.StartTime, existingMeeting.EndTime, "Group Meeting");
+            box.BackColor = ColorTranslator.FromHtml("#FDF6E3");
+            box.Dock = DockStyle.Fill;
+
+            panel1.Controls.Clear();
+            panel1.Controls.Add(box);
         }
     }
 }

@@ -129,7 +129,7 @@ namespace OOAD.View
                 {
                     if (c is Label lbl)
                         lbl.ForeColor = ColorTranslator.FromHtml("#776B5D");
-                }
+                } 
             }
             daycontainer.Controls.Add(ucd);
         }
