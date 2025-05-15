@@ -37,25 +37,48 @@ namespace OOAD.View
             label4.Text = groupmeet.GetGroupMeetingCountByUser(user.ID_User).ToString();
             panel3.Controls.Clear();
 
-            // Load Appointments
-            var appointments = appoint.GetAppointmentsByUser(user.ID_User);
-            foreach (var appt in appointments)
-            {
-                var box = new UserControlBox();
-                box.SetData(appt.Name, appt.Location, appt.StartTime, appt.EndTime);
-                box.BackColor = ColorTranslator.FromHtml("#FDF6E3");
-                panel3.Controls.Add(box);
-            }
+            DateTime now = DateTime.Now;
 
-            // Load GroupMeetings
-            var meetings = groupmeet.GetGroupMeetingsByUser(user.ID_User);
-            foreach (var meeting in meetings)
+            // Lấy danh sách appointment còn hiệu lực
+            var appointments = appoint.GetAppointmentsByUser(user.ID_User)
+                .Where(a => a.EndTime > now)
+                .Select(a => new
+                {
+                    Title = a.Name,
+                    Location = a.Location,
+                    Start = a.StartTime,
+                    End = a.EndTime,
+                    Type = "Appointment"
+                });
+
+            // Lấy danh sách meeting còn hiệu lực
+            var meetings = groupmeet.GetGroupMeetingsByUser(user.ID_User)
+                .Where(m => m.EndTime > now)
+                .Select(m => new
+                {
+                    Title = m.Name,
+                    Location = m.Location,
+                    Start = m.StartTime,
+                    End = m.EndTime,
+                    Type = "Group Meeting"
+                });
+
+            // Gộp và sắp xếp theo thời gian bắt đầu
+            var allEvents = appointments
+                .Concat(meetings)
+                .OrderBy(item => item.Start)
+                .ToList();
+
+            // Hiển thị từng sự kiện
+            foreach (var evt in allEvents)
             {
                 var box = new UserControlBox();
-                box.SetData(meeting.Name, meeting.Location, meeting.StartTime, meeting.EndTime);
+                box.SetData(evt.Title, evt.Location, evt.Start, evt.End, evt.Type); // Thêm evt.Type
                 box.BackColor = ColorTranslator.FromHtml("#FDF6E3");
                 panel3.Controls.Add(box);
             }
         }
+
+
     }
 }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using OOAD.Service;
 using System.Drawing.Drawing2D;
+using System.Reflection.Emit;
 
 namespace OOAD.View
 {
@@ -27,7 +28,7 @@ namespace OOAD.View
             groupmeet = new GroupMeetingService(db);
             users = new UserService(db);
         }
-        public void SetData(string name, string location, DateTime startTime, DateTime endTime)
+        public void SetData(string name, string location, DateTime startTime, DateTime endTime, string type)
         {
             label1.Text = name;
             label2.Text = location;
@@ -37,10 +38,12 @@ namespace OOAD.View
             else
                 label3.Text = startTime.ToString("dd/MM/yyyy hh\\:mm tt");
 
-            // Duration
             TimeSpan duration = endTime - startTime;
             label4.Text = $"Duration: {(int)duration.TotalMinutes} minutes";
+
+            label5.Text = type; // Hiển thị loại sự kiện
         }
+
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);
