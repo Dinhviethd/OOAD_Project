@@ -45,6 +45,20 @@
             ok = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+            // ok
+            // 
+            ok.BackColor = System.Drawing.SystemColors.Highlight;
+            ok.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            ok.ForeColor = System.Drawing.SystemColors.Control;
+            ok.Location = new System.Drawing.Point(333, 558);
+            ok.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            ok.Name = "ok";
+            ok.Size = new System.Drawing.Size(102, 52);
+            ok.TabIndex = 33;
+            ok.Text = "OK";
+            ok.UseVisualStyleBackColor = false;
+            ok.Click += new System.EventHandler(this.ok_Click);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -99,6 +113,7 @@
             this.dateTimePicker2.Location = new System.Drawing.Point(496, 422);
             this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.ShowUpDown = true;
             this.dateTimePicker2.Size = new System.Drawing.Size(384, 35);
             this.dateTimePicker2.TabIndex = 38;
             this.dateTimePicker2.Value = new System.DateTime(2025, 5, 14, 0, 0, 0, 0);
@@ -110,6 +125,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(85, 422);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.ShowUpDown = true;
             this.dateTimePicker1.Size = new System.Drawing.Size(378, 35);
             this.dateTimePicker1.TabIndex = 37;
             // 
@@ -142,19 +158,6 @@
             this.groupmeeting.TabIndex = 34;
             this.groupmeeting.Text = "Group meeting";
             this.groupmeeting.UseVisualStyleBackColor = true;
-            // 
-            // ok
-            // 
-            ok.BackColor = System.Drawing.SystemColors.Highlight;
-            ok.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            ok.ForeColor = System.Drawing.SystemColors.Control;
-            ok.Location = new System.Drawing.Point(333, 558);
-            ok.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            ok.Name = "ok";
-            ok.Size = new System.Drawing.Size(102, 52);
-            ok.TabIndex = 33;
-            ok.Text = "OK";
-            ok.UseVisualStyleBackColor = false;
             // 
             // start
             // 
@@ -196,7 +199,7 @@
             this.title.TabIndex = 29;
             this.title.Text = "Meeting Title";
             // 
-            // Form4
+            // Schedule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -215,8 +218,9 @@
             this.Controls.Add(this.end);
             this.Controls.Add(this.location);
             this.Controls.Add(this.title);
-            this.Name = "Form4";
+            this.Name = "Schedule";
             this.Text = "Form4";
+            this.Load += new System.EventHandler(this.Schedule_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

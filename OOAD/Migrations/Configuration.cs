@@ -5,14 +5,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<OOAD.Login>
+    internal sealed class Configuration : DbMigrationsConfiguration<OOAD.Model1>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(OOAD.Login context)
+        protected override void Seed(OOAD.Model1 context)
         {
             //  This method will be called after migrating to the latest version.
 

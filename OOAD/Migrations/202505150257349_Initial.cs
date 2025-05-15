@@ -40,6 +40,9 @@
                     {
                         ID_Group = c.Int(nullable: false, identity: true),
                         Name = c.String(),
+                        Location = c.String(),
+                        StartTime = c.DateTime(nullable: false),
+                        EndTime = c.DateTime(nullable: false),
                     })
                 .PrimaryKey(t => t.ID_Group);
             

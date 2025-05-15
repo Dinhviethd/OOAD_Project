@@ -26,6 +26,7 @@ namespace OOAD.Service
         public void AddGroup(GroupMeeting group)
         {
             _context.GroupMeetings.Add(group);
+            
             _context.SaveChanges();
         }
 
@@ -44,6 +45,18 @@ namespace OOAD.Service
                 _context.GroupMeetings.Remove(group);
                 _context.SaveChanges();
             }
+        }
+        public int GetGroupMeetingCountByUser(int userId)
+        {
+            return _context.GroupMeetings
+                .Count(g => g.Participants.Any(u => u.ID_User == userId));
+        }
+        public List<GroupMeeting> GetGroupMeetingsByUser(int userId)
+        {
+            return _context.GroupMeetings
+                .Include(g => g.Participants)
+                .Where(g => g.Participants.Any(u => u.ID_User == userId))
+                .ToList();
         }
     }
 

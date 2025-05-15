@@ -16,6 +16,12 @@ D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.UserControl
 D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.UserControlDay.resources
 D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.ScheduleConflict.resources
 D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.MeetingConflict.resources
-D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.Calendar.resources
 D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.View.Schedule.resources
+D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.View.Login.resources
+D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.View.Register.resources
+D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.View.Layout.resources
+D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.View.UserControlCalendar.resources
 D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.Migrations.Initial.resources
+D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.View.UserControlDashboard.resources
+D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.View.UserControlBox.resources
+D:\Study\Second Year - Second Semester\OOAD\OOAD\OOAD\obj\Debug\OOAD.View.ScheduleConflict2.resources

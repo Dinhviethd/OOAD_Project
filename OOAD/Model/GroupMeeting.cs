@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OOAD
 {
@@ -12,6 +9,9 @@ namespace OOAD
         [Key]
         public int ID_Group { get; set; }
         public string Name { get; set; }
+        public string Location { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
         public virtual ICollection<User> Participants { get; set; } = new List<User>();
     }
 }

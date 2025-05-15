@@ -45,6 +45,11 @@ namespace OOAD.Service
                 _context.SaveChanges();
             }
         }
+        public int GetAppointmentCountByUser(int userId)
+        {
+            return _context.Appointments.Count(a => a.UserID == userId);
+        }
+
     }
 
 }

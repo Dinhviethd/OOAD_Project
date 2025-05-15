@@ -13,7 +13,7 @@ namespace OOAD.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202505140721327_Initial"; }
+            get { return "202505150257349_Initial"; }
         }
         
         string IMigrationMetadata.Source

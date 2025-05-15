@@ -60,9 +60,9 @@
   <ItemGroup>
     <Compile Include="Data\Model1.cs" />
     <Compile Include="Data\SeedData.cs" />
-    <Compile Include="Migrations\202505140721327_Initial.cs" />
-    <Compile Include="Migrations\202505140721327_Initial.Designer.cs">
-      <DependentUpon>202505140721327_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\202505150257349_Initial.cs" />
+    <Compile Include="Migrations\202505150257349_Initial.Designer.cs">
+      <DependentUpon>202505150257349_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Appoinment.cs" />
@@ -73,11 +73,17 @@
     <Compile Include="Service\GroupMeetingService.cs" />
     <Compile Include="Service\ReminderService.cs" />
     <Compile Include="Service\UserService.cs" />
-    <Compile Include="UserControlSidebar.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="View\Layout.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserControlSidebar.Designer.cs">
-      <DependentUpon>UserControlSidebar.cs</DependentUpon>
+    <Compile Include="View\Layout.Designer.cs">
+      <DependentUpon>Layout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="View\MeetingConflict.cs">
       <SubType>Form</SubType>
@@ -85,30 +91,36 @@
     <Compile Include="View\MeetingConflict.Designer.cs">
       <DependentUpon>MeetingConflict.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\ScheduleConflict.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\ScheduleConflict.Designer.cs">
       <DependentUpon>ScheduleConflict.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\Calendar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Calendar.Designer.cs">
-      <DependentUpon>Calendar.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControlBlank.cs">
+    <Compile Include="View\ScheduleConflict2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ScheduleConflict2.Designer.cs">
+      <DependentUpon>ScheduleConflict2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControlBlank.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControlBlank.Designer.cs">
+    <Compile Include="View\UserControlBlank.Designer.cs">
       <DependentUpon>UserControlBlank.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControlDay.cs">
+    <Compile Include="View\UserControlDay.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControlDay.Designer.cs">
+    <Compile Include="View\UserControlDay.Designer.cs">
       <DependentUpon>UserControlDay.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Schedule.cs">
@@ -117,20 +129,41 @@
     <Compile Include="View\Schedule.Designer.cs">
       <DependentUpon>Schedule.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Migrations\202505140721327_Initial.resx">
-      <DependentUpon>202505140721327_Initial.cs</DependentUpon>
+    <Compile Include="View\UserControlBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControlBox.Designer.cs">
+      <DependentUpon>UserControlBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControlCalendar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControlCalendar.Designer.cs">
+      <DependentUpon>UserControlCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControlDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UserControlDashboard.Designer.cs">
+      <DependentUpon>UserControlDashboard.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Migrations\202505150257349_Initial.resx">
+      <DependentUpon>202505150257349_Initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControlSidebar.resx">
-      <DependentUpon>UserControlSidebar.cs</DependentUpon>
+    <EmbeddedResource Include="View\Layout.resx">
+      <DependentUpon>Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\ScheduleConflict.resx">
       <DependentUpon>ScheduleConflict.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\MeetingConflict.resx">
       <DependentUpon>MeetingConflict.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\Calendar.resx">
-      <DependentUpon>Calendar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -141,14 +174,26 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControlBlank.resx">
+    <EmbeddedResource Include="View\ScheduleConflict2.resx">
+      <DependentUpon>ScheduleConflict2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControlBlank.resx">
       <DependentUpon>UserControlBlank.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControlDay.resx">
+    <EmbeddedResource Include="View\UserControlBox.resx">
+      <DependentUpon>UserControlBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControlDay.resx">
       <DependentUpon>UserControlDay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Schedule.resx">
       <DependentUpon>Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControlCalendar.resx">
+      <DependentUpon>UserControlCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserControlDashboard.resx">
+      <DependentUpon>UserControlDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

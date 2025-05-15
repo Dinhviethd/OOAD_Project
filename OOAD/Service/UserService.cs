@@ -47,6 +47,27 @@ namespace OOAD.Service
                 _context.SaveChanges();
             }
         }
-    }
+        public User Login(string username, string password)
+        {
+            return _context.Users
+                .FirstOrDefault(u => u.Username == username && u.Password == password);
+        }
+        public bool Register(string name, string username, string password, string email)
+        {
+            if (_context.Users.Any(u => u.Username == username) || _context.Users.Any(u => u.EmailAddress == email))
+                return false;
 
+            var user = new User
+            {
+                Name = name,
+                Username = username,
+                Password = password,
+                EmailAddress = email
+            };
+
+            _context.Users.Add(user);
+            _context.SaveChanges();
+            return true;
+        }
+    }
 }

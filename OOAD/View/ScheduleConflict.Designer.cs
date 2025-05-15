@@ -28,81 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.bCreate = new System.Windows.Forms.Button();
+            this.bOverwrite = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // button2
+            // bCreate
             // 
-            this.button2.Location = new System.Drawing.Point(319, 463);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 48);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = true;
+            this.bCreate.Location = new System.Drawing.Point(357, 359);
+            this.bCreate.Name = "bCreate";
+            this.bCreate.Size = new System.Drawing.Size(200, 48);
+            this.bCreate.TabIndex = 17;
+            this.bCreate.Text = "Create";
+            this.bCreate.UseVisualStyleBackColor = true;
+            this.bCreate.Click += new System.EventHandler(this.bCreate_Click);
             // 
-            // button1
+            // bOverwrite
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button1.Location = new System.Drawing.Point(44, 463);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 48);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Ok";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(323, 345);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(118, 29);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "End Time";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(48, 345);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 29);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Start Time";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox1.Location = new System.Drawing.Point(45, 182);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(513, 117);
-            this.textBox1.TabIndex = 13;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(319, 394);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 26);
-            this.dateTimePicker2.TabIndex = 12;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker1.Location = new System.Drawing.Point(44, 394);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
-            this.dateTimePicker1.TabIndex = 11;
+            this.bOverwrite.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.bOverwrite.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.bOverwrite.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.bOverwrite.Location = new System.Drawing.Point(45, 359);
+            this.bOverwrite.Name = "bOverwrite";
+            this.bOverwrite.Size = new System.Drawing.Size(200, 48);
+            this.bOverwrite.TabIndex = 16;
+            this.bOverwrite.Text = "Overwrite";
+            this.bOverwrite.UseVisualStyleBackColor = false;
+            this.bOverwrite.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -126,21 +80,24 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Scheduling Conflict";
             // 
-            // Form2
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(45, 182);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(513, 117);
+            this.panel1.TabIndex = 18;
+            // 
+            // ScheduleConflict
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(596, 572);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.ClientSize = new System.Drawing.Size(596, 445);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.bCreate);
+            this.Controls.Add(this.bOverwrite);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
+            this.Name = "ScheduleConflict";
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -149,14 +106,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button bCreate;
+        private System.Windows.Forms.Button bOverwrite;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
