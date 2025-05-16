@@ -1,0 +1,546 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\model\\groupmeeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\model\\groupmeeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|c:\\users\\admin\\downloads\\ooad_project-an (1)\\ooad_project-an\\ooad\\view\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|c:\\users\\admin\\downloads\\ooad_project-an (1)\\ooad_project-an\\ooad\\view\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\model\\appoinment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\model\\appoinment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontroldashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\usercontrolcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\usercontrolbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\usercontrolblank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolblank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|c:\\users\\admin\\downloads\\ooad_project-an (1)\\ooad_project-an\\ooad\\view\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|c:\\users\\admin\\downloads\\ooad_project-an (1)\\ooad_project-an\\ooad\\migrations\\202505151528411_updatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\migrations\\202505151528411_updatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\service\\reminderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\service\\reminderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\model\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\model\\reminder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|c:\\users\\admin\\downloads\\ooad_project-an (1)\\ooad_project-an\\ooad\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|c:\\users\\admin\\downloads\\ooad_project-an (1)\\ooad_project-an\\ooad\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\usercontrolcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolcalendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\usercontrolbox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolbox.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\usercontrolbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\usercontrolday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\usercontrolday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\meetingconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\scheduleconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\scheduleconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\scheduleconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\scheduleconflict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\ooad\\view\\layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86386128-5C68-4BA4-BF4A-BE33187F0D2E}|OOAD\\OOAD.csproj|solutionrelative:ooad\\view\\layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Layout.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\Layout.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\Layout.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\Layout.cs",
+              "RelativeToolTip": "OOAD\\View\\Layout.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAuwBoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:28:41.924Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserControlCalendar.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlCalendar.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\UserControlCalendar.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlCalendar.cs",
+              "RelativeToolTip": "OOAD\\View\\UserControlCalendar.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwIMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:42:54.989Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\Schedule.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\Schedule.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\Schedule.cs*",
+              "RelativeToolTip": "OOAD\\View\\Schedule.cs*",
+              "ViewState": "AgIAAFUAAAAAAAAAAAASwGYAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:11:39.305Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reminder.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\Reminder.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\Reminder.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\Reminder.cs",
+              "RelativeToolTip": "OOAD\\View\\Reminder.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAEwEoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:47:40.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserControlCalendar.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlCalendar.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\UserControlCalendar.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlCalendar.cs [Design]",
+              "RelativeToolTip": "OOAD\\View\\UserControlCalendar.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:38:41.489Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Appoinment.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Model\\Appoinment.cs",
+              "RelativeDocumentMoniker": "OOAD\\Model\\Appoinment.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Model\\Appoinment.cs",
+              "RelativeToolTip": "OOAD\\Model\\Appoinment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:18:19.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Program.cs",
+              "RelativeDocumentMoniker": "OOAD\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Program.cs",
+              "RelativeToolTip": "OOAD\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:35:25.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupMeeting.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Model\\GroupMeeting.cs",
+              "RelativeDocumentMoniker": "OOAD\\Model\\GroupMeeting.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Model\\GroupMeeting.cs",
+              "RelativeToolTip": "OOAD\\Model\\GroupMeeting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:10:19.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserControlDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlDashboard.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\UserControlDashboard.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlDashboard.cs",
+              "RelativeToolTip": "OOAD\\View\\UserControlDashboard.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAASwD4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:39:02.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserControlBox.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlBox.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\UserControlBox.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlBox.cs [Design]",
+              "RelativeToolTip": "OOAD\\View\\UserControlBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:38:42.334Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserControlDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlDashboard.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\UserControlDashboard.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlDashboard.cs [Design]",
+              "RelativeToolTip": "OOAD\\View\\UserControlDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:38:40.559Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserControlBlank.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlBlank.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\UserControlBlank.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlBlank.cs [Design]",
+              "RelativeToolTip": "OOAD\\View\\UserControlBlank.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:38:37.39Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Reminder.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\Reminder.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\Reminder.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\Reminder.cs [Design]",
+              "RelativeToolTip": "OOAD\\View\\Reminder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:14:54.388Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReminderService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Service\\ReminderService.cs",
+              "RelativeDocumentMoniker": "OOAD\\Service\\ReminderService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Service\\ReminderService.cs",
+              "RelativeToolTip": "OOAD\\Service\\ReminderService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAvwBUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:16:38.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Reminder.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Model\\Reminder.cs",
+              "RelativeDocumentMoniker": "OOAD\\Model\\Reminder.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Model\\Reminder.cs",
+              "RelativeToolTip": "OOAD\\Model\\Reminder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:16:41.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "202505151528411_UpdateDB.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Migrations\\202505151528411_UpdateDB.cs",
+              "RelativeDocumentMoniker": "OOAD\\Migrations\\202505151528411_UpdateDB.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Migrations\\202505151528411_UpdateDB.cs",
+              "RelativeToolTip": "OOAD\\Migrations\\202505151528411_UpdateDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:28:46.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Model\\User.cs",
+              "RelativeDocumentMoniker": "OOAD\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Model\\User.cs",
+              "RelativeToolTip": "OOAD\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:25:04.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "OOAD\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\Data\\SeedData.cs",
+              "RelativeToolTip": "OOAD\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T15:23:59.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserControlBox.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlBox.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\UserControlBox.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlBox.cs",
+              "RelativeToolTip": "OOAD\\View\\UserControlBox.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:38:50.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserControlBox.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlBox.Designer.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\UserControlBox.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlBox.Designer.cs",
+              "RelativeToolTip": "OOAD\\View\\UserControlBox.Designer.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAASwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:38:45.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\App.config",
+              "RelativeDocumentMoniker": "OOAD\\App.config",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\App.config",
+              "RelativeToolTip": "OOAD\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-15T15:11:21.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\Register.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\Register.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\Register.cs",
+              "RelativeToolTip": "OOAD\\View\\Register.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:23:17.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserControlDay.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlDay.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\UserControlDay.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\UserControlDay.cs [Design]",
+              "RelativeToolTip": "OOAD\\View\\UserControlDay.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:48:02.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MeetingConflict.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\MeetingConflict.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\MeetingConflict.cs",
+              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\MeetingConflict.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:19:12.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MeetingConflict.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\MeetingConflict.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\MeetingConflict.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\MeetingConflict.cs",
+              "RelativeToolTip": "OOAD\\View\\MeetingConflict.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:15:51.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ScheduleConflict.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\ScheduleConflict.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\ScheduleConflict.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\ScheduleConflict.cs",
+              "RelativeToolTip": "OOAD\\View\\ScheduleConflict.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAlwC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:00:08.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ScheduleConflict.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\ScheduleConflict.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\ScheduleConflict.cs",
+              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\ScheduleConflict.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:59:59.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\OOAD_Project-AN (1)\\OOAD_Project-AN\\OOAD\\View\\Register.cs",
+              "RelativeDocumentMoniker": "OOAD\\View\\Register.cs",
+              "ToolTip": "D:\\Study\\Second Year - Second Semester\\OOAD\\OOAD\\OOAD\\View\\Register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:50:04.857Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
